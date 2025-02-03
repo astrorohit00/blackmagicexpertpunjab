@@ -7,8 +7,9 @@ export default function Home() {
       <main >
         
         <header>
-        <div className="text-light p-3 header">
+        <div className="header">
             <h2 className="head text-center">Black Magic Expert in Punjab | +91-7087757503</h2>
+            <a className="call-now" href="tel:7087757503">Call Now</a>
         </div>
     </header>
     <div className="container mt-5 mb-5">
