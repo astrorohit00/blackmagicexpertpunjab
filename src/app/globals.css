@@ -1,0 +1,88 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* background-image: url("../images/astro.gif"); */
+  background-size: cover;
+  background-attachment: fixed;
+  color:black;
+  margin:0;
+  padding:0;
+}
+.container{
+  max-width: 1200px;
+  margin:0 auto;
+  padding:0 1.5rem;
+}
+.heading
+{
+  margin-top: 2.5rem;
+  position: relative;
+  display: block;
+  /* text-transform: uppercase; */
+  font-weight: 800;
+  padding: 0px 5px;
+  /* font-size: 36px; */
+  /* width: max-content; */
+  margin-bottom: 1rem;
+  padding: 0;
+}
+h1{
+  color:black;
+}
+h2,h3{
+  font-size:26px;
+}
+blockquote{
+color: #02021e;
+background-color: #fff3db;
+background-image: url('https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/6482efe87d218006cd1581a7_qoute-corall__laptop.webp');
+background-position: 0 101%;
+background-repeat: no-repeat;
+background-size: 100%;
+border-left-width: 0;
+border-radius: 1.5rem;
+margin: 2.5rem 0rem;
+padding: 2rem 8.5rem 2rem 2rem;
+font-size: 1.25rem;
+font-weight: 600;
+position: relative;
+}
+
+.footer{
+  text-align: center;
+  padding:10px 15px;
+}
+
+.footer p{
+  font-size: 0.75rem !important;
+  font-weight: 600;
+}
+
+header{
+  position: sticky;
+  top:0;
+  z-index: 99;
+  padding:1rem;
+  background-color: rgba(0,0,0,0.8);
+  backdrop-filter:blur(5px);
+}
+
+header h2{
+  font-weight: 800;
+  color:white;
+}
+
+a{
+  font-weight: 800;
+  color:black;
+}
+a:hover{
+  color:black;
+  text-decoration: none;
+}
+
+.banner-img{
+  width:100% !important;
+  height:auto;
+}
